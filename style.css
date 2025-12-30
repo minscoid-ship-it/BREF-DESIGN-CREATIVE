@@ -1,9 +1,14 @@
 :root {
-  --primary: #2fa4b5;
-  --secondary: #6b7fb3;
-  --accent: #3fbac2;
-  --dark: #0b0b0b;
-  --soft: rgba(255,255,255,0.04);
+  /* GRADASI LOGO (FINAL) */
+  --g1: #6e88b2;
+  --g2: #4097ab;
+  --g3: #2f9da9;
+
+  /* WARNA AMAN PENDUKUNG */
+  --dark: #0a0a0a;
+  --surface: rgba(255,255,255,0.045);
+  --border: rgba(255,255,255,0.09);
+  --text-soft: #bfc7d5;
 }
 
 /* RESET */
