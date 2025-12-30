@@ -21,8 +21,8 @@ body {
   margin: 0;
   background:
     radial-gradient(circle at top,
-      rgba(110,136,178,0.18),
-      var(--dark) 60%
+      rgba(29,189,220,0.18),
+      var(--dark) 30%
     );
   color: #ffffff;
 }
