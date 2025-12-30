@@ -67,14 +67,7 @@ h1 {
   font-size: 32px;
   font-weight: 800;
   margin: 0 0 8px;
-  background: linear-gradient(
-    120deg,
-    var(--g1),
-    var(--g2),
-    var(--g3)
-  );
-  -webkit-background-clip: text;
-  color: transparent;
+  color: #ffffff; /* JUDUL PUTIH */
 }
 
 .tagline {
