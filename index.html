@@ -13,64 +13,109 @@
   <header class="header">
     <img src="logo.png" alt="Mins Media" class="logo">
     <h1>FORM BRIEF DESAIN KREATIF</h1>
-    <p class="tagline">Creative Home — Ide Anda Kami Terjemahkan Secara Profesional</p>
+    <p class="tagline"><strong>Kirim Ide Anda</strong>, Jadikan Dasar Kami Mendesain</p>
   </header>
 
   <form id="briefForm" class="card">
 
-    <h2>A. INFORMASI KLIEN</h2>
-    <input type="text" name="Nama" placeholder="Nama / Brand" required>
-    <input type="text" name="Instansi" placeholder="Instansi (Opsional)">
+    <!-- A -->
+    <div class="section">
+      <h2>A. INFORMASI KLIEN</h2>
+      <input type="text" name="Nama" placeholder="Nama / Brand" required>
+      <input type="text" name="Instansi" placeholder="Instansi (Opsional)">
+    </div>
 
-    <h2>B. INFORMASI PROYEK</h2>
-    <select name="Jenis Desain">
-      <option>Logo</option>
-      <option>Branding</option>
-      <option>Poster / Flyer</option>
-      <option>Konten Sosial Media</option>
-      <option>Website / UI UX</option>
-      <option>Video / Motion</option>
-      <option>Lainnya</option>
-    </select>
-    <input type="text" name="Nama Proyek" placeholder="Judul / Nama Proyek">
+    <!-- B -->
+    <div class="section accent">
+      <h2>
+        B. INFORMASI PROYEK
+        <span class="info" data-info="Pilih jenis layanan utama yang Anda butuhkan.">ⓘ</span>
+      </h2>
 
-    <h2>C. TARGET & KONSEP</h2>
-    <textarea name="Target Audiens" placeholder="Target Audiens (usia, komunitas, dll)"></textarea>
-    <textarea name="Pesan Utama" placeholder="Pesan utama yang ingin disampaikan"></textarea>
+      <select name="Jenis Desain">
+        <option>Logo</option>
+        <option>Branding</option>
+        <option>Poster / Flyer</option>
+        <option>Konten Sosial Media</option>
+        <option>Website / UI UX</option>
+        <option>Video / Motion</option>
+        <option>Lainnya</option>
+      </select>
 
-    <select name="Gaya Desain">
-      <option>Minimalis</option>
-      <option>Modern</option>
-      <option>Elegan</option>
-      <option>Industrial</option>
-      <option>Tradisional</option>
-      <option>Fun / Playful</option>
-      <option>Profesional</option>
-    </select>
+      <input type="text" name="Nama Proyek" placeholder="Judul / Nama Proyek">
+    </div>
 
-    <h2>D. REFERENSI VISUAL</h2>
-    <input type="text" name="Referensi" placeholder="Link Referensi (Website / Instagram / Pinterest)">
-    <input type="text" name="Warna" placeholder="Warna yang Diinginkan">
-    <input type="text" name="Font" placeholder="Font / Tipografi (jika ada)">
+    <!-- C -->
+    <div class="section">
+      <h2>
+        C. TARGET & KONSEP
+        <span class="info" data-info="Informasi ini membantu kami menentukan pendekatan desain.">ⓘ</span>
+      </h2>
 
-    <h2>E. KONTEN & OUTPUT</h2>
-    <select name="Kesiapan Konten">
-      <option>Konten Sudah Siap</option>
-      <option>Belum, dibantu tim</option>
-    </select>
-    <input type="text" name="Format Output" placeholder="Format Output (IG, Cetak, Video, dll)">
-    <input type="text" name="File Akhir" placeholder="File Akhir (PNG, PDF, AI, MP4, dll)">
+      <textarea name="Target Audiens" placeholder="Target Audiens (usia, komunitas, dll)"></textarea>
+      <textarea name="Pesan Utama" placeholder="Pesan utama yang ingin disampaikan"></textarea>
 
-    <h2>DEADLINE</h2>
-    <input type="date" name="Deadline">
+      <select name="Gaya Desain">
+        <option>Minimalis</option>
+        <option>Modern</option>
+        <option>Elegan</option>
+        <option>Industrial</option>
+        <option>Tradisional</option>
+        <option>Fun / Playful</option>
+        <option>Profesional</option>
+      </select>
+    </div>
 
-    <h2>CATATAN TAMBAHAN</h2>
-    <textarea name="Catatan" placeholder="Permintaan khusus / catatan penting"></textarea>
+    <!-- D -->
+    <div class="section accent">
+      <h2>D. REFERENSI VISUAL</h2>
+      <input type="text" name="Referensi" placeholder="Link Referensi (Website / Instagram / Pinterest)">
+      <input type="text" name="Warna" placeholder="Warna yang Diinginkan">
+      <input type="text" name="Font" placeholder="Font / Tipografi (jika ada)">
+    </div>
+
+    <!-- E -->
+    <div class="section">
+      <h2>E. KONTEN & OUTPUT</h2>
+      <select name="Kesiapan Konten">
+        <option>Konten Sudah Siap</option>
+        <option>Belum, dibantu tim</option>
+      </select>
+      <input type="text" name="Format Output" placeholder="Format Output (IG, Cetak, Video, dll)">
+      <input type="text" name="File Akhir" placeholder="File Akhir (PNG, PDF, AI, MP4, dll)">
+    </div>
+
+    <!-- DEADLINE -->
+    <div class="section deadline">
+      <h2>
+        DEADLINE PROYEK
+        <span class="info" data-info="Tuliskan perkiraan waktu pengerjaan yang Anda harapkan.">ⓘ</span>
+      </h2>
+
+      <input type="text" name="Deadline Detail"
+        placeholder="Contoh: Hari ini / Besok / Lusa / 3 hari ke depan + Jam">
+
+      <label class="urgent">
+        <input type="checkbox" name="Urgent" value="YA">
+        Proyek Bersifat Urgent
+      </label>
+    </div>
+
+    <!-- CATATAN -->
+    <div class="section">
+      <h2>CATATAN TAMBAHAN</h2>
+      <textarea name="Catatan" placeholder="Permintaan khusus / catatan penting"></textarea>
+    </div>
 
     <button type="submit">KIRIM BRIEF KE WHATSAPP</button>
 
     <p class="agreement">
-      Dengan mengirim form ini, klien menyetujui brief sebagai dasar pengerjaan desain.
+      Brief ini akan langsung dikirim ke WhatsApp kami.<br>
+      Seluruh komunikasi lanjutan dilakukan melalui WhatsApp untuk respon lebih cepat.
+    </p>
+
+    <p class="note">
+      🔒 Data Anda aman dan hanya digunakan untuk keperluan pengerjaan desain.
     </p>
   </form>
 
