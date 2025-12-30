@@ -4,35 +4,81 @@
   <meta charset="UTF-8">
   <title>Form Brief Desain Kreatif | Mins Media</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Form Brief Desain Kreatif Profesional - Mins Media Creative Home">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <div class="wrapper">
   <header class="header">
-    <img src="logo.png" class="logo">
+    <img src="logo.png" alt="Mins Media" class="logo">
     <h1>FORM BRIEF DESAIN KREATIF</h1>
     <p class="tagline">Creative Home — Ide Anda Kami Terjemahkan Secara Profesional</p>
   </header>
 
   <form id="briefForm" class="card">
+
     <h2>A. INFORMASI KLIEN</h2>
-    <input name="Nama" placeholder="Nama / Brand" required>
-    <input name="Instansi" placeholder="Instansi (Opsional)">
+    <input type="text" name="Nama" placeholder="Nama / Brand" required>
+    <input type="text" name="Instansi" placeholder="Instansi (Opsional)">
 
     <h2>B. INFORMASI PROYEK</h2>
     <select name="Jenis Desain">
-      <option>Logo</option><option>Branding</option><option>Website</option>
+      <option>Logo</option>
+      <option>Branding</option>
+      <option>Poster / Flyer</option>
+      <option>Konten Sosial Media</option>
+      <option>Website / UI UX</option>
+      <option>Video / Motion</option>
+      <option>Lainnya</option>
     </select>
-    <input name="Nama Proyek" placeholder="Judul Proyek">
+    <input type="text" name="Nama Proyek" placeholder="Judul / Nama Proyek">
 
-    <h2>CATATAN</h2>
-    <textarea name="Catatan"></textarea>
+    <h2>C. TARGET & KONSEP</h2>
+    <textarea name="Target Audiens" placeholder="Target Audiens (usia, komunitas, dll)"></textarea>
+    <textarea name="Pesan Utama" placeholder="Pesan utama yang ingin disampaikan"></textarea>
 
-    <button type="submit">KIRIM KE WHATSAPP</button>
+    <select name="Gaya Desain">
+      <option>Minimalis</option>
+      <option>Modern</option>
+      <option>Elegan</option>
+      <option>Industrial</option>
+      <option>Tradisional</option>
+      <option>Fun / Playful</option>
+      <option>Profesional</option>
+    </select>
+
+    <h2>D. REFERENSI VISUAL</h2>
+    <input type="text" name="Referensi" placeholder="Link Referensi (Website / Instagram / Pinterest)">
+    <input type="text" name="Warna" placeholder="Warna yang Diinginkan">
+    <input type="text" name="Font" placeholder="Font / Tipografi (jika ada)">
+
+    <h2>E. KONTEN & OUTPUT</h2>
+    <select name="Kesiapan Konten">
+      <option>Konten Sudah Siap</option>
+      <option>Belum, dibantu tim</option>
+    </select>
+    <input type="text" name="Format Output" placeholder="Format Output (IG, Cetak, Video, dll)">
+    <input type="text" name="File Akhir" placeholder="File Akhir (PNG, PDF, AI, MP4, dll)">
+
+    <h2>DEADLINE</h2>
+    <input type="date" name="Deadline">
+
+    <h2>CATATAN TAMBAHAN</h2>
+    <textarea name="Catatan" placeholder="Permintaan khusus / catatan penting"></textarea>
+
+    <button type="submit">KIRIM BRIEF KE WHATSAPP</button>
+
+    <p class="agreement">
+      Dengan mengirim form ini, klien menyetujui brief sebagai dasar pengerjaan desain.
+    </p>
   </form>
 
-  <footer>© 2025 Mins Media</footer>
+  <footer>
+    © 2025 Mins Media — Creative Home
+  </footer>
 </div>
+
 <script src="script.js"></script>
 </body>
 </html>
