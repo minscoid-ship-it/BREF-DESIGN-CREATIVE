@@ -19,13 +19,16 @@
 
 body {
   margin: 0;
-  background:
-    radial-gradient(circle at top,
-      rgba(29,189,220,0.18),
-      var(--dark) 30%
-    );
+  min-height: 100vh;
+  background: linear-gradient(
+    145deg,
+    #6e88b2 0%,
+    #4097ab 45%,
+    #2f9da9 100%
+  );
   color: #ffffff;
 }
+
 
 /* WRAPPER */
 .wrapper {
@@ -67,8 +70,8 @@ h1 {
 .card {
   background: linear-gradient(
     180deg,
-    rgba(255,255,255,0.06),
-    rgba(255,255,255,0.015)
+    rgba(60,153,171,0.06),
+    rgba(60,153,171,0.015)
   );
   backdrop-filter: blur(14px);
   border-radius: 22px;
